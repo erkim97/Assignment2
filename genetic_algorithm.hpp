@@ -2,6 +2,8 @@
 // Created by kimer on 2020-11-24.
 //
 
+#ifndef ASSIGNMENT2_GENETIC_ALGORITHM_HPP
+#define ASSIGNMENT2_GENETIC_ALGORITHM_HPP
 
 #include <random>
 #include <iostream>
