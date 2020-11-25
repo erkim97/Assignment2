@@ -1,6 +1,7 @@
 #include <iostream>
+#include "genetic_algorithm.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    genetic_algorithm();
     return 0;
 }
