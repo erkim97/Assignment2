@@ -1,7 +1,6 @@
 //
 // Created by kimer on 2020-11-24.
 //
-
 #include "city.hpp"
 
 /*
@@ -11,6 +10,7 @@
  *         int y : y coordinate of the city
  * @returns city : newly created city
  */
-city::city(char name, int x, int y): name(name), x(x), y(y) {
-
-}
+city::city(char name, int x, int y)
+        : name(name),
+          x(x),
+          y(y) {}

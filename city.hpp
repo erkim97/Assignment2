@@ -5,7 +5,6 @@
 #ifndef ASSIGNMENT2_CITY_HPP
 #define ASSIGNMENT2_CITY_HPP
 
-
 class city {
 public:
     char name;
@@ -14,6 +13,7 @@ public:
 
     city(char name, int x, int y);
 };
+
 
 
 #endif //ASSIGNMENT2_CITY_HPP

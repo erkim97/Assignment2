@@ -6,11 +6,11 @@
 using namespace std;
 
 /*
- * tour constructor
- * @returns newly created tour
+ * tour constructor, name and set of coordinates
+ * @returns tour
  */
 tour::tour() : fitness(0.0) {
-    city temp{'a', 0, 1000};
+    city temp{'a', 0, 0};
     for (int i = 0; i < CITIES_IN_TOUR; ++i) {
         cities.push_back(temp);
     }
@@ -18,7 +18,7 @@ tour::tour() : fitness(0.0) {
 
 /*
  * assignment operator
- * @params tour t : a tour to be assigned
+ * @params tour t
  * @returns returns tour& : *this (tour)
  */
 tour &tour::operator=(tour t) {
@@ -26,4 +26,3 @@ tour &tour::operator=(tour t) {
     swap(fitness, t.fitness);
     return *this;
 }
-#include "tour.hpp"
